@@ -13,7 +13,7 @@ See:
 
 ```bash
 git clone https://github.com/pocs-anguilla/controltest-container
-cd evaluation-container
+cd controltest-container
 docker build -t controltest .
 ```
 
