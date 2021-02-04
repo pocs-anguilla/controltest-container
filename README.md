@@ -12,7 +12,7 @@ See:
 ### Building the image
 
 ```bash
-git clone https://github.com/pocs-anguilla/evaluation-container
+git clone https://github.com/pocs-anguilla/controltest-container
 cd evaluation-container
 docker build -t controltest .
 ```
