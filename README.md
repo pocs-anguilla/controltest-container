@@ -20,5 +20,10 @@ docker build -t controltest .
 ### Using the image
 
 ```bash
-docker run --rm -i -v $PWD:/workspace -t controltest <data_filename.csv> 
+docker run --rm -i -v $PWD:/workspace -t controltest input.csv > output.latex
 ```
+
+## Notes
+
+- CSV files generated with Pandas need to be modified so that the first cell is not empty, otherwise the Java program crashes.
+- Ranks start in 0 instead of 1.
